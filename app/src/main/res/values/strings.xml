@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">StandFramework</string>
+    <string name="Enter_APP">立即体验</string>
+    <string name="Index_route">首页</string>
+    <string name="Index_map">地图</string>
+    <string name="Index_message">消息</string>
+    <string name="Index_profile">我的</string>
+
+    <string name="cirbtn_allboard_travel">我猜你要去</string>
+    <string name="cirbtn_self_find">查找目的地</string>
+    <string name="cirbtn_information_find">旅游信息</string>
+    <string name="crtbtn_leave_message">留言</string>
+
+    <string name="btn_locatoin">我要定位</string>
+</resources>

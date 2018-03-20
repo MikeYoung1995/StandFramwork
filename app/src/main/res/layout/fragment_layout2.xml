@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--显示地图并自动定位到当前所在位置-->
+
+    <!--因为设置了Activity状态栏透明,所以需要设置状态栏背景色-->
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="25dp"
+    android:background="#123456"
+    />
+
+<ImageButton
+    android:id="@+id/Locatoin_btn"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:text=""/>
+
+</LinearLayout>

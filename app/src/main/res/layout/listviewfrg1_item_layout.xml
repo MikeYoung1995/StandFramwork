@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="86dp"
+        android:layout_height="86dp"
+        >
+
+        <LinearLayout
+            android:layout_centerInParent="true"
+            android:layout_width="77dp"
+            android:layout_height="77dp"
+            >
+
+            <ImageView
+                android:id="@+id/img_show"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/listitem_frge1_imgviewstyle"
+                />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Landspace_Name"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:textSize="17sp"/>
+
+
+        <TextView
+            android:id="@+id/Landspace_Intruduction"
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="15sp"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="yangyu.standframework">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="yangyu.standframework.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="yangyu.standframework.activity.IndexActivity"></activity>
+        <activity android:name="yangyu.standframework.activity.HActivity"></activity>
+        <activity android:name="yangyu.standframework.SlidePageActiviey"></activity>
+        <activity android:name="yangyu.standframework.activity.HBActivity"></activity>
+        <activity android:name="yangyu.standframework.map.Location_Map"></activity>
+    </application>
+
+</manifest>
